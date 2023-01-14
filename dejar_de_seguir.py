@@ -125,8 +125,10 @@ for user in users:
         
         print("[Info] - pues yo tampoco!")
     
-    if len(remove_list) > 3:
+    if len(remove_list) > 30:
         break
+
+    time.sleep(randint(3,5))
         
 
 
