@@ -7,7 +7,7 @@
 import time
 import os
 
-from random import randint, sample
+from random import randint
 
 import selenium.webdriver as webdriver
 from selenium.webdriver.edge.service import Service
@@ -69,14 +69,12 @@ f = open("historial.txt", "r")
 users = f.readlines()
 f.close()
 
-bath_users = sample(users, 10)
-
 
 # In[ ]:
 
 
 remove_list = []
-for user in bath_users:
+for user in users:
     bot.get('https://www.instagram.com/{}/'.format(user[:-1]))
 
     time.sleep(randint(4,6))
