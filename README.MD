@@ -1,6 +1,6 @@
-# Dofus Bot
+# Insta Bot
 
-This code will forge bliterados only.
+This code will follow/unfollow users.
 
 ## Installing
 
