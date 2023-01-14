@@ -14,9 +14,9 @@ Paste your credentialas in keys.py:
 
 `python conseguir_seguidores.py` you will create a fille with usernames to follow, run once a week.
 
-`python ir_a_seguir.py` you will follow new users frome database, run once a day
+`python ir_a_seguir.py` you will follow new users frome database, run once a day.
 
-`python dejar de seguir.py` you wull unfollow users that did't give follow back, run once a day, run once.
+`python dejar de seguir.py` you will unfollow users that did't give follow back, run once every 3-4 days.
 
 # Authors and Thanks
 This script makes use of tools developped by the following people
