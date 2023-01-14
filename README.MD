@@ -8,7 +8,7 @@ run `pip install -r requirements.txt`
 
 ## Usage
 
-Create a file call keys.py, in there paste your credentialas:
+Paste your credentialas in keys.py:
 - USERNAME = "pepa"
 - PASSWORD = "psswd123"
 
