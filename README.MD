@@ -12,11 +12,11 @@ Create a file call keys.py, in there paste your credentialas:
 - USERNAME = "pepa"
 - PASSWORD = "psswd123"
 
-By running `python conseguir_seguidores.py` you will create a fille with usernames to follow, run once a week.
+`python conseguir_seguidores.py` you will create a fille with usernames to follow, run once a week.
 
-By running `python ir_a_seguir.py` you will follow new users frome database, run once a day
+`python ir_a_seguir.py` you will follow new users frome database, run once a day
 
-By running `python dejar de seguir.py` you wull unfollow users that did't give follow back, run once a day, run once.
+`python dejar de seguir.py` you wull unfollow users that did't give follow back, run once a day, run once.
 
 # Authors and Thanks
 This script makes use of tools developped by the following people
