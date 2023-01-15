@@ -65,7 +65,7 @@ time.sleep(randint(9,12))
 # In[ ]:
 
 # Usuarios de los que se quiere sacar los seguidores.
-usernames = ["streamingkingchile", "arteyperfumesamatista"]
+usernames = ["alexisjoyeriabga", "doselefantesjoyeria"]
 
 database = []
 for user in usernames:
