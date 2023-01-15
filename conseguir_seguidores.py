@@ -64,10 +64,10 @@ time.sleep(randint(9,12))
 
 # In[ ]:
 
-
+# Usuarios de los que se quiere sacar los seguidores.
 usernames = ["streamingkingchile", "arteyperfumesamatista"]
-database = []
 
+database = []
 for user in usernames:
     bot.get('https://www.instagram.com/{}/'.format(user))
 

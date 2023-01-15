@@ -19,8 +19,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-
 # ==========================================
 from keys import USERNAME, PASSWORD 
 # ==========================================
