@@ -119,7 +119,10 @@ for user in users:
         if bot.find_elements(By.XPATH, "//div[contains(text(), 'Siguiendo')]"):
             bot.find_element(By.CLASS_NAME, "_acan").click()
             time.sleep(randint(2,4))
-            bot.find_element(By.XPATH, "/html/body/div[6]/div/div/div[2]/div/div[6]").click()
+            try:
+                bot.find_element(By.XPATH, "/html/body/div[6]/div/div/div[2]/div/div[6]").click()
+            except:
+                pass
             time.sleep(randint(1,3))
             remove_list.append(user)
         
