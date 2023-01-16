@@ -71,6 +71,7 @@ f.close()
 # In[ ]:
 
 
+max_follow = randint(10,20)
 remove_list = []
 for user in users:
     bot.get('https://www.instagram.com/{}/'.format(user[:-1]))
@@ -89,7 +90,7 @@ for user in users:
             print("ahora si!")
             remove_list.append(user)
         
-    if len(remove_list) > 10:
+    if len(remove_list) > max_follow:
         break
     
     time.sleep(randint(1,3))
